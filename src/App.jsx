@@ -1,34 +1,39 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Chart from './Chart'
 import './App.css'
+import uiAmbossData from "./reports/ui-amboss-report.json";
+import { Colors } from './constants'
+
+const componentData = Object.keys(uiAmbossData).map(component => {
+  return {
+    name: component,
+    instances: uiAmbossData[component].instances
+  }
+})
+
+function getPropData(component) {
+  return Object.keys(uiAmbossData[component].props).map(prop => {
+    return {
+      name: prop,
+      instances: uiAmbossData[component].props[prop]
+    }
+  }) 
+}
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const handleBarClick = (index) => {
+    setActiveIndex(index)
+  };
+
+  const component = componentData[activeIndex].name;
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div class="app-content">
+     <Chart title={`Component usage in ui-amboss`} data={componentData} height={2000} yAxisWidth={160} activeBar={activeIndex} onBarClick={handleBarClick}/>
+     <Chart title={`Prop usage in ${component}`} data={getPropData(component)} color={Colors.GREEN} />
+    </div>
   )
 }
 

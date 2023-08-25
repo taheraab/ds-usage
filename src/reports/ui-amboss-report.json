@@ -1,0 +1,605 @@
+{
+  "Text": {
+    "instances": 556,
+    "props": {
+      "size": 246,
+      "variant": 232,
+      "weight": 144,
+      "as": 45,
+      "align": 40,
+      "transform": 32,
+      "color": 9,
+      "style": 9,
+      "data-e2e-test-id": 8,
+      "key": 5,
+      "className": 4,
+      "space": 3,
+      "weigth": 3,
+      "hyphens": 2,
+      "data-testid": 1,
+      "id": 1,
+      "secondary": 1
+    }
+  },
+  "Stack": {
+    "instances": 403,
+    "props": {
+      "space": 305,
+      "alignItems": 28,
+      "data-e2e-test-id": 8,
+      "key": 4,
+      "bSpace": 1,
+      "size": 1,
+      "tSpace": 1
+    }
+  },
+  "Box": {
+    "instances": 381,
+    "props": {
+      "space": 333,
+      "vSpace": 120,
+      "bSpace": 85,
+      "tSpace": 74,
+      "lSpace": 35,
+      "rSpace": 25,
+      "alignText": 14,
+      "data-e2e-test-id": 6,
+      "key": 4,
+      "role": 2,
+      "size": 2,
+      "alignItems": 1,
+      "ariaAttributes": 1,
+      "vAlignItems": 1
+    }
+  },
+  "Column": {
+    "instances": 319,
+    "props": {
+      "size": 317,
+      "order": 13,
+      "style": 9,
+      "className": 8,
+      "key": 6,
+      "alignSelf": 5,
+      "vAlignItems": 1
+    }
+  },
+  "Inline": {
+    "instances": 303,
+    "props": {
+      "alignItems": 155,
+      "vAlignItems": 146,
+      "space": 142,
+      "noWrap": 97,
+      "vSpace": 26,
+      "key": 3,
+      "data-e2e-test-id": 2,
+      "bSpace": 1,
+      "nowrap": 1
+    }
+  },
+  "Button": {
+    "instances": 269,
+    "props": {
+      "onClick": 228,
+      "variant": 169,
+      "fullWidth": 90,
+      "size": 90,
+      "leftIcon": 68,
+      "disabled": 63,
+      "as": 58,
+      "data-e2e-test-id": 55,
+      "type": 40,
+      "href": 31,
+      "loading": 29,
+      "to": 24,
+      "rel": 6,
+      "target": 6,
+      "className": 5,
+      "data-testid": 5,
+      "aria-label": 4,
+      "name": 4,
+      "rightIcon": 4,
+      "data-test-id": 3,
+      "ref": 2,
+      "dataE2eTestid": 1,
+      "download": 1,
+      "full": 1,
+      "key": 1,
+      "onContextMenu": 1,
+      "privateProps": 1,
+      "style": 1,
+      "suppressShadow": 1,
+      "tabIndex": 1
+    }
+  },
+  "Columns": {
+    "instances": 141,
+    "props": {
+      "gap": 56,
+      "vAlignItems": 37,
+      "alignItems": 32,
+      "alwaysFillSpace": 6,
+      "style": 3,
+      "className": 2,
+      "data-e2e-test-id": 1,
+      "data-test-id": 1,
+      "noWrap": 1,
+      "role": 1
+    }
+  },
+  "Icon": {
+    "instances": 130,
+    "props": {
+      "name": 130,
+      "size": 86,
+      "color": 76,
+      "data-testid": 13,
+      "inline": 10,
+      "data-e2e-test-id": 5,
+      "hoverable": 2,
+      "variant": 2
+    }
+  },
+  "Card": {
+    "instances": 88,
+    "props": {
+      "overflow": 25,
+      "title": 23,
+      "data-e2e-test-id": 7,
+      "squareCorners": 7,
+      "as": 1,
+      "button": 1,
+      "dropdown": 1
+    }
+  },
+  "Link": {
+    "instances": 81,
+    "props": {
+      "variant": 63,
+      "href": 57,
+      "onClick": 48,
+      "as": 44,
+      "weight": 35,
+      "size": 34,
+      "target": 25,
+      "rel": 18,
+      "to": 16,
+      "data-e2e-test-id": 3,
+      "key": 2,
+      "innerRef": 1,
+      "onKeyDown": 1,
+      "role": 1,
+      "tabIndex": 1,
+      "type": 1
+    }
+  },
+  "Divider": {
+    "instances": 73,
+    "props": {
+      "text": 6
+    }
+  },
+  "CardBox": {
+    "instances": 46,
+    "props": {
+      "key": 1
+    }
+  },
+  "H6": {
+    "instances": 35,
+    "props": {
+      "as": 1,
+      "id": 1,
+      "variant": 1
+    }
+  },
+  "H2": {
+    "instances": 34,
+    "props": {
+      "style": 2,
+      "weight": 2,
+      "as": 1,
+      "data-e2e-test-id": 1,
+      "id": 1
+    }
+  },
+  "H3": {
+    "instances": 32,
+    "props": {
+      "className": 5,
+      "id": 1
+    }
+  },
+  "SubThemeProvider": {
+    "instances": 27,
+    "props": {
+      "name": 27
+    }
+  },
+  "H5": {
+    "instances": 25,
+    "props": {
+      "as": 3,
+      "style": 2,
+      "id": 1
+    }
+  },
+  "Badge": {
+    "instances": 22,
+    "props": {
+      "text": 22,
+      "color": 20,
+      "icon": 7,
+      "key": 1
+    }
+  },
+  "H4": {
+    "instances": 21,
+    "props": {
+      "as": 1,
+      "id": 1
+    }
+  },
+  "Input": {
+    "instances": 18,
+    "props": {
+      "type": 16,
+      "value": 16,
+      "label": 15,
+      "name": 15,
+      "onChange": 15,
+      "errorMessages": 12,
+      "hasError": 11,
+      "onBlur": 11,
+      "placeholder": 8,
+      "data-e2e-test-id": 5,
+      "areaLabel": 4,
+      "hint": 3,
+      "onFocus": 3,
+      "tabIndex": 3,
+      "touched": 3,
+      "onClick": 2,
+      "disabled": 1,
+      "icon": 1,
+      "labelHint": 1
+    }
+  },
+  "H1": {
+    "instances": 15,
+    "props": {
+      "data-e2e-test-id": 4,
+      "id": 1,
+      "style": 1
+    }
+  },
+  "PictogramButton": {
+    "instances": 15,
+    "props": {
+      "icon": 15,
+      "onClick": 11,
+      "disabled": 10,
+      "data-e2e-test-id": 5,
+      "variant": 5,
+      "squareCorners": 3,
+      "data-testid": 2,
+      "as": 1
+    }
+  },
+  "FormFieldGroup": {
+    "instances": 13,
+    "props": {
+      "label": 6,
+      "errorMessages": 5,
+      "labelHint": 2,
+      "name": 2,
+      "hint": 1,
+      "labelTooltipMessage": 1
+    }
+  },
+  "StyledText": {
+    "instances": 11,
+    "props": {}
+  },
+  "ThemeProvider": {
+    "instances": 11,
+    "props": {
+      "theme": 11
+    }
+  },
+  "Container": {
+    "instances": 10,
+    "props": {
+      "elevation": 10,
+      "borderRadius": 1,
+      "overflow": 1
+    }
+  },
+  "Notification": {
+    "instances": 9,
+    "props": {
+      "text": 9,
+      "icon": 8,
+      "isDismissable": 8,
+      "onClickDismiss": 7
+    }
+  },
+  "TextClamped": {
+    "instances": 8,
+    "props": {
+      "lines": 6,
+      "size": 5,
+      "variant": 2,
+      "weight": 2,
+      "as": 1,
+      "data-testid": 1,
+      "hyphens": 1
+    }
+  },
+  "Callout": {
+    "instances": 6,
+    "props": {
+      "text": 6,
+      "description": 3,
+      "icon": 3,
+      "type": 3
+    }
+  },
+  "Checkbox": {
+    "instances": 6,
+    "props": {
+      "label": 6,
+      "onChange": 6,
+      "name": 5,
+      "checked": 3,
+      "key": 1
+    }
+  },
+  "DropdownMenu": {
+    "instances": 6,
+    "props": {
+      "menuItems": 6,
+      "size": 6,
+      "iconName": 4,
+      "onMenuOpen": 2,
+      "data-e2e-test-id": 1,
+      "disabled": 1,
+      "label": 1,
+      "menuItemTextVariant": 1
+    }
+  },
+  "PasswordInput": {
+    "instances": 5,
+    "props": {
+      "areaLabel": 5,
+      "errorMessages": 5,
+      "hasError": 5,
+      "iconAriaLabel": 5,
+      "label": 5,
+      "name": 5,
+      "onBlur": 5,
+      "onChange": 5,
+      "placeholder": 5,
+      "value": 5,
+      "hint": 4,
+      "onFocus": 4,
+      "touched": 4,
+      "onClick": 3,
+      "onIconClick": 1
+    }
+  },
+  "Radio": {
+    "instances": 5,
+    "props": {
+      "checked": 5,
+      "label": 5,
+      "name": 5,
+      "onChange": 5,
+      "value": 3,
+      "key": 2,
+      "onClick": 2
+    }
+  },
+  "MediaViewerBar": {
+    "instances": 4,
+    "props": {
+      "hasSeparator": 2
+    }
+  },
+  "Modal": {
+    "instances": 4,
+    "props": {
+      "header": 4,
+      "onAction": 4,
+      "subHeader": 3,
+      "actionButton": 2,
+      "privateProps": 1
+    }
+  },
+  "Modal.Stack": {
+    "instances": 4,
+    "props": {
+      "space": 1
+    }
+  },
+  "Textarea": {
+    "instances": 4,
+    "props": {
+      "onChange": 3,
+      "value": 3,
+      "placeholder": 2,
+      "rows": 2,
+      "autoComplete": 1,
+      "disabled": 1,
+      "errorMessages": 1,
+      "labelHint": 1,
+      "maxLength": 1,
+      "name": 1
+    }
+  },
+  "MediaItem": {
+    "instances": 3,
+    "props": {
+      "src": 3,
+      "title": 3,
+      "fit": 2,
+      "squareByWidth": 2
+    }
+  },
+  "Modal.Text": {
+    "instances": 3,
+    "props": {}
+  },
+  "ProgressBar": {
+    "instances": 3,
+    "props": {
+      "maxValue": 3,
+      "progress": 3,
+      "weight": 3
+    }
+  },
+  "RadioButton": {
+    "instances": 3,
+    "props": {
+      "label": 3,
+      "name": 3,
+      "onChange": 3,
+      "value": 3,
+      "checked": 2,
+      "onClick": 2,
+      "disabled": 1,
+      "key": 1
+    }
+  },
+  "LoadingSpinner": {
+    "instances": 2,
+    "props": {
+      "data-e2e-test-id": 1,
+      "screenReaderText": 1,
+      "size": 1
+    }
+  },
+  "Logo": {
+    "instances": 2,
+    "props": {
+      "href": 2
+    }
+  },
+  "RoundButton": {
+    "instances": 2,
+    "props": {
+      "icon": 2,
+      "onClick": 2,
+      "variant": 2
+    }
+  },
+  "SearchResult": {
+    "instances": 2,
+    "props": {
+      "link": 2,
+      "data-e2e-test-id": 1,
+      "icon": 1,
+      "secondaryTargets": 1,
+      "subtitle": 1,
+      "title": 1
+    }
+  },
+  "SegmentedProgressBar": {
+    "instances": 2,
+    "props": {
+      "weight": 2,
+      "maxValue": 1,
+      "values": 1
+    }
+  },
+  "Select": {
+    "instances": 2,
+    "props": {
+      "options": 2,
+      "placeholder": 2,
+      "autoComplete": 1,
+      "disabled": 1,
+      "emptyStateMessage": 1,
+      "errorMessages": 1,
+      "hasError": 1,
+      "hint": 1,
+      "labelHint": 1,
+      "maxHeight": 1,
+      "name": 1,
+      "onChange": 1,
+      "value": 1
+    }
+  },
+  "Tabs": {
+    "instances": 2,
+    "props": {
+      "activeTab": 2,
+      "onTabSelect": 2,
+      "tabs": 2,
+      "horizontalPadding": 1
+    }
+  },
+  "Toggle": {
+    "instances": 2,
+    "props": {
+      "checked": 2,
+      "label": 2,
+      "onChange": 2,
+      "alignItems": 1,
+      "disabled": 1,
+      "isHighlighted": 1,
+      "name": 1,
+      "size": 1
+    }
+  },
+  "Collapsible": {
+    "instances": 1,
+    "props": {
+      "isExpanded": 1
+    }
+  },
+  "CollapsibleHeader": {
+    "instances": 1,
+    "props": {
+      "onClick": 1,
+      "space": 1,
+      "vSpace": 1
+    }
+  },
+  "DataTable": {
+    "instances": 1,
+    "props": {
+      "caption": 1,
+      "columns": 1,
+      "currentlySortedByColumn": 1,
+      "isEmpty": 1,
+      "isFirstColumnSticky": 1,
+      "isLoading": 1,
+      "onSort": 1,
+      "rows": 1
+    }
+  },
+  "SegmentedControl": {
+    "instances": 1,
+    "props": {
+      "justified": 1,
+      "key": 1,
+      "onChange": 1,
+      "options": 1,
+      "size": 1,
+      "value": 1
+    }
+  },
+  "ToggleButton": {
+    "instances": 1,
+    "props": {
+      "checked": 1,
+      "key": 1,
+      "label": 1,
+      "name": 1,
+      "onChange": 1,
+      "subLabel": 1,
+      "value": 1
+    }
+  }
+}

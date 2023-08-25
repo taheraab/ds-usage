@@ -1,0 +1,10 @@
+
+.chart-container {
+  background-color: white;
+}
+
+.tooltip {
+  border: 1px solid white;
+  background-color: black;
+  padding: 0.5rem;
+}
